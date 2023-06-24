@@ -7,7 +7,7 @@ const NoteList = () => {
   
 
   return notes.map((note, index) => (
-    <Note key={index} note={note}  />
+    <Note key={index} note={note} />
   ))
 }
 export default NoteList;
